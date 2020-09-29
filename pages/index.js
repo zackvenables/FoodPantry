@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import React from 'react';
 
+
 class Home extends React.Component{
 
     render(){
@@ -21,8 +22,9 @@ class Home extends React.Component{
             <p className={styles.description}>
               Cool pantry slogan here!
             </p>
-
-            <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg"/>
+            
+            <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
+            
 
             <h2>Pantry announcements and upcoming events</h2>
 

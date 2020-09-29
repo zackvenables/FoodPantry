@@ -3893,6 +3893,11 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
+react-aspect-ratio@^1.0.43:
+  version "1.0.43"
+  resolved "https://registry.yarnpkg.com/react-aspect-ratio/-/react-aspect-ratio-1.0.43.tgz#9238534da816ff150804143445753a15444fdb06"
+  integrity sha512-wDvk2U1rjlS7pQzBFbJ+UUGCHPUiic5G3bG95EyP6bmxFN7RgBrjrIPzKQoZhZ8g4Q1gXOegR5p1Il3W4wWDmA==
+
 react-dom@16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
