@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css';
 import React from 'react';
 
 
+
+
 class Home extends React.Component{
 
     render(){
@@ -15,27 +17,25 @@ class Home extends React.Component{
           </Head>
 
           <main className={styles.main}>
-            <h1 className={styles.title}>
-              Reynoldsburg Food Pantry
-            </h1>
+            <img src="https://i.imgur.com/WfEqPdQ.jpg" className={styles.logo}/>
+            <hr className={styles.horLine} />
 
-            <p className={styles.description}>
-              Cool pantry slogan here!
-            </p>
-            
             <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
             
-
-            <h2>Pantry announcements and upcoming events</h2>
-
             <div className={styles.grid}>
               <a href="/donate" className={styles.card}>
-                <h3>Make A Donation Here &rarr;</h3>
+                <h3>Donate Today</h3>
                 <p></p>
               </a>
 
          
             </div>
+
+            <h2 className={styles.announcements}>Pantry Announcements</h2>
+            <p>Here's where you can put announcements concerning the pantry</p> 
+
+            <h2 className={styles.announcements}>Upcoming Events</h2>
+            <p>Here's where you can add upcoming dates and times for the pantry</p>
           </main>
 
           <footer className={styles.footer}>
