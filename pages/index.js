@@ -7,6 +7,24 @@ import React from 'react';
 
 
 class Home extends React.Component{
+    constructor(props){
+        super (props);
+
+        this.getAnnouncement = this.getAnnouncement.bind(this);
+        this.getEvents = this.getEvents.bind(this);
+    }
+
+    getAnnouncement(){
+        return(
+            <p>Here's where you can put announcements concerning the pantry</p> 
+        );
+    }
+
+    getEvents(){
+        return(
+            <p>Here's where you can add upcoming dates and times for the pantry</p>
+        ); 
+    }
 
     render(){
       return (
@@ -32,10 +50,9 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Pantry Announcements</h2>
-            <p>Here's where you can put announcements concerning the pantry</p> 
-
+            {this.getAnnouncement()}
             <h2 className={styles.announcements}>Upcoming Events</h2>
-            <p>Here's where you can add upcoming dates and times for the pantry</p>
+            {this.getEvents()}
           </main>
 
           <footer className={styles.footer}>
