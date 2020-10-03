@@ -45,14 +45,14 @@ class Home extends React.Component{
                 <h3>Donate Today</h3>
                 <p></p>
               </a>
-
-         
             </div>
 
             <h2 className={styles.announcements}>Pantry Announcements</h2>
             {this.getAnnouncement()}
+
             <h2 className={styles.announcements}>Upcoming Events</h2>
             {this.getEvents()}
+
           </main>
 
           <footer className={styles.footer}>
