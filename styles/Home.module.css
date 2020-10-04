@@ -28,6 +28,12 @@
     
 }
 
+.map {
+    height: 100%;
+    width: 100%;
+    
+}
+
 .logo {
   
 }
@@ -61,7 +67,8 @@
 
 .description {
   line-height: 1.5;
-  max-width: 800px;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
 }
 
 .code {
@@ -107,4 +114,13 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.giveFunds {
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.donateButton {
+    
 }
