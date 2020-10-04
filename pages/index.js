@@ -55,7 +55,7 @@ class Home extends React.Component{
                 {this.getEvents()}
             
             <h2 className={styles.announcements}>Our Location</h2>
-                <p className={styles.description}>We are located on the back side of Site Engineering Inc.</p>
+                <p className={styles.description}>We are located on the Cypress Alley side of Site Engineering Inc.</p>
 
             <div>
                 <img className={styles.map} src="https://i.imgur.com/yCSfdea.png" />
