@@ -24,7 +24,7 @@ class Donation extends React.Component{
           
 					<h2 className={styles.giveFunds}>Give Funds</h2>
 					<p className={styles.description}>
-						One of the best ways you can help Reynoldsburg Helping 
+						One of the best ways you can assist Reynoldsburg Helping 
 						Hands fight hunger is by providing a monetary gift. We apply your contribution directly 
 						toward our community's current and most pressing needs. By providing a struggling family
 						with nutritious food, you are providing more than just a meal, you are fueling their future.
