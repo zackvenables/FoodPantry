@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import React from 'react';
 
+import MapContainer from '../assets/map'
 
 
 
@@ -16,13 +17,13 @@ class Home extends React.Component{
 
     getAnnouncement(){
         return(
-            <p>Here's where you can put announcements concerning the pantry</p> 
+                <p className={styles.description}>Here's where you can add announcements about the pantry</p>
         );
     }
 
     getEvents(){
         return(
-            <p>Here's where you can add upcoming dates and times for the pantry</p>
+            <p className={styles.description}>Here's where you can add upcoming dates and times for the pantry</p>
         ); 
     }
 
@@ -36,7 +37,7 @@ class Home extends React.Component{
 
           <main className={styles.main}>
             <img src="https://i.imgur.com/WfEqPdQ.jpg" className={styles.logo}/>
-            <hr className={styles.horLine} />
+                <hr className={styles.horLine} />
 
             <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
             
@@ -48,15 +49,22 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Pantry Announcements</h2>
-            {this.getAnnouncement()}
+                {this.getAnnouncement()}
 
             <h2 className={styles.announcements}>Upcoming Events</h2>
-            {this.getEvents()}
+                {this.getEvents()}
+            
+            <h2 className={styles.announcements}>Our Location</h2>
+                <p className={styles.description}>We are located on the back side of Site Engineering Inc.</p>
+
+            <div>
+                <img className={styles.map} src="https://i.imgur.com/rlBr7Gu.png" />
+            </div>            
 
           </main>
 
           <footer className={styles.footer}>
-            <p>Street <br/> City <br/> Phone <br/> Email</p>
+            <p>7453 E. Main Street <br/> Reyonoldsburg, Ohio <br/> (614) 868-9394 <br/>  </p>
           </footer>
         </div>
       );
