@@ -12,7 +12,7 @@ class Donation extends React.Component{
 		return(
 			<div className={styles.container}>
 				<Head>
-					<title>Reynoldsburg Food Pantry</title>
+					<title>Reynoldsburg Helping Hands</title>
 					<link rel="icon" href="https://i.pinimg.com/originals/a7/21/15/a72115694d8a0f3c972a9b04a64c0159.png" />
 				</Head>
 
