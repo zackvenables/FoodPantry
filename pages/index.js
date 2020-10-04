@@ -48,7 +48,7 @@ class Home extends React.Component{
               </a>
             </div>
 
-            <h2 className={styles.announcements}>Pantry Announcements</h2>
+            <h2 className={styles.announcements}>Announcements</h2>
                 {this.getAnnouncement()}
 
             <h2 className={styles.announcements}>Upcoming Events</h2>
