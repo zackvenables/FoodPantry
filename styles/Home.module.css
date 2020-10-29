@@ -124,5 +124,17 @@
 }
 
 .donateButton {
-    
+    margin-bottom: 4rem;
+}
+
+.list{
+    max-width: 600px;
+}
+
+.assistanceTitles{
+    margin-bottom: -0.28rem;
+}
+
+.sourcesTitles{
+    margin-bottom: -0.4rem;
 }

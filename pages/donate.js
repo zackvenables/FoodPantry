@@ -39,6 +39,16 @@ class Donation extends React.Component{
 							<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 						</form>
 					</div>
+
+					<h2 className={styles.giveFunds}>Donate Goods</h2>
+					<p className={styles.description}>
+						We've made donating goods as simple as possible.  Just Drive up Cypress Alley and volunteers will be waiting to unload your donations!<br/><br/>The following items are in high demand: 
+					</p>
+					<ul className={styles.list}>
+						<li>Non-perishable and non-expired food items</li>
+						<li>Personal items such as toiletries, cleaning supplies and laundry items</li>
+						<li>Baby items like formula and diapers</li>
+					</ul>
 				  </main>
 
 				<footer className={styles.footer}>
