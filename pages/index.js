@@ -3,30 +3,10 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import React from 'react';
 
-import MapContainer from '../assets/map'
-
-
 
 class Home extends React.Component{
     constructor(props){
-        super (props);
-
-        this.getAnnouncement = this.getAnnouncement.bind(this);
-        this.getEvents = this.getEvents.bind(this);
-    }
-
-    getAnnouncement(){
-        return(
-                
-
-                <p className={styles.description}>Here's where you can add announcements about the pantry</p>
-        );
-    }
-
-    getEvents(){
-        return(
-            <p className={styles.description}>Reynoldsburg Helping Hands is holding a Food Drive on November 21st from 10:00AM - 2:00PM.</p>
-        ); 
+        super (props);  
     }
 
     render(){
@@ -38,9 +18,15 @@ class Home extends React.Component{
           </Head>
 
           <main className={styles.main}>
-            <img src="https://i.imgur.com/WfEqPdQ.jpg" className={styles.logo}/>
-                <hr className={styles.horLine} />
+            <img src="https://i.imgur.com/2sDvrtP.png" className={styles.logo}/>
 
+            <div className={styles.topnav}>
+				<a className={styles.active} href="/">Home</a>
+				<a  href="/donate">Donate</a>
+				<a href="/contact">Contact</a>
+				<a href="/about">About</a>
+			</div>
+           
             <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
             
             <div className={styles.grid}>
@@ -51,7 +37,7 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Upcoming Events</h2>
-                {this.getEvents()}
+                <p className={styles.description}>Reynoldsburg Helping Hands is holding a Food Drive on November 21st from 10:00AM - 2:00PM.</p>
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>

@@ -19,7 +19,7 @@
 .horLine {
      border: 2px solid light-grey;
      width: 100%;
-     margin-bottom: 30px;
+     margin-bottom: 1.8rem;
 }
 
 .image {
@@ -32,10 +32,6 @@
     height: 100%;
     width: 100%;
     max-width: 600px;
-}
-
-.logo {
-  
 }
 
 .announcements {
@@ -96,9 +92,9 @@
   text-align: center;
   padding: 0rem 1rem 0rem 1rem;
   
-  color: #4A566E;
+  color: #421075;
   text-decoration: none;
-  border: 2px solid #4A566E;
+  border: 2px solid #421075;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -106,8 +102,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #71680B;
-  border-color: #71680B;
+  color: #FFC82D;
+  border-color: #FFC82D;
 }
 
 @media (max-width: 600px) {
@@ -137,4 +133,45 @@
 
 .sourcesTitles{
     margin-bottom: -0.4rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #421075;
+  margin-top: -2rem;
+  margin-bottom: 1.5rem;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFC82D;
+  color: black;
+}
+
+.navbar{
+    background: transparent;
+    border: none;
+}
+
+.navbar li{
+    display: inline-block;
+    float: none;
+}
+
+.navbar li a{
+    padding-left: 30px;
+    padding-right: 30px;
 }
