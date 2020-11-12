@@ -17,8 +17,14 @@ class Donation extends React.Component{
 				</Head>
 
 				<main className={styles.main}>
-					<img src="https://i.imgur.com/WfEqPdQ.jpg" className={styles.logo}/>
-					<hr className={styles.horLine} />
+					<img src="https://i.imgur.com/2sDvrtP.png" className={styles.logo}/>
+
+					<div className={styles.topnav}>
+						<a href="/">Home</a>
+						<a className={styles.active} href="/donate">Donate</a>
+						<a href="/contact">Contact</a>
+						<a href="/about">About</a>
+					</div>
 
 					<img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
           
