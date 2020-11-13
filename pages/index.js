@@ -18,13 +18,14 @@ class Home extends React.Component{
           </Head>
 
           <main className={styles.main}>
-            <img src="https://i.imgur.com/2sDvrtP.png" className={styles.logo}/>
-
+            <div className={styles.logo}>
+                <img src="https://i.imgur.com/2sDvrtP.png"/>
+            </div>
             <div className={styles.topnav}>
 				<a className={styles.active} href="/">Home</a>
-				<a  href="/donate">Donate</a>
-				<a href="/contact">Contact</a>
-				<a href="/about">About</a>
+				<a href="/about">About Us</a>
+                <a  href="/events">Events</a>
+                <a  href="/donate">Donate</a>
 			</div>
            
             <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>

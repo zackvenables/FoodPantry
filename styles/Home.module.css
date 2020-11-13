@@ -135,11 +135,17 @@
     margin-bottom: -0.4rem;
 }
 
+.navitem {
+    display: inline-block;
+}
+
 .topnav {
+  display: inline-block;
   overflow: hidden;
   background-color: #421075;
   margin-top: -2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
 }
 
 .topnav a {
@@ -174,4 +180,8 @@
 .navbar li a{
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.logo {
+   
 }

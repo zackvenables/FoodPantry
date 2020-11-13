@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 import React from 'react';
 
 
-class About extends React.Component{
+class Events extends React.Component{
 	constructor(props){
         super(props);
     }
@@ -22,9 +22,9 @@ class About extends React.Component{
 
                     <div className={styles.topnav}>
 				        <a href="/">Home</a>
-				        <a className={styles.active} href="/donate">About Us</a>
-				        <a href="/events">Events</a>
-				        <a href="/about">Donate</a>
+                        <a href="/about">About Us</a>
+                        <a className={styles.active} href="/events">Events</a>
+				        <a href="/donate">Donate</a>
 			        </div>
            
                     <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
@@ -46,4 +46,4 @@ class About extends React.Component{
 	}
 }
 
-export default About;
+export default Events;

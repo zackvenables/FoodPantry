@@ -21,9 +21,9 @@ class Donation extends React.Component{
 
 					<div className={styles.topnav}>
 						<a href="/">Home</a>
+						<a href="/about">About Us</a>
+						<a href="/events">Events</a>
 						<a className={styles.active} href="/donate">Donate</a>
-						<a href="/contact">Contact</a>
-						<a href="/about">About</a>
 					</div>
 
 					<img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
