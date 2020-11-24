@@ -37,11 +37,9 @@ class Donation extends React.Component{
 					</p>
 
 					<div className={styles.donateButton}>
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-							<input type="hidden" name="cmd" value="_donations" />
-							<input type="hidden" name="business" value="4SEVMNS7AXNWQ" />
-							<input type="hidden" name="currency_code" value="USD" />
-							<input type="image" src="https://i.imgur.com/8PTN6BI.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<form action="https://www.paypal.com/donate" method="post" target="_top">
+							<input type="hidden" name="hosted_button_id" value="XXPZ6XT6GA876" />
+							<input type="image" src="https://i.imgur.com/6iaphoI.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 							<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 						</form>
 					</div>
