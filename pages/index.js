@@ -47,7 +47,6 @@ class Home extends React.Component{
                         <li>It is necessary to call a day ahead for an appointment.</li>
                         <li>Identification and proof of address are required when picking up groceries.</li>
                         <li>One call per address. Please be on time for your appointment.</li>
-                        <li>"No show" may not be served again.</li>
                         <li>It is the client's responsibility to check all food for freshness before using.</li>
                     </ul>
 
