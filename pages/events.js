@@ -32,7 +32,6 @@ class Events extends React.Component{
                     <div className={styles.grid}>
                       <a href="/donate" className={styles.card}>
                         <h3>Donate Today</h3>
-                        <p></p>
                       </a>
                     </div>
 

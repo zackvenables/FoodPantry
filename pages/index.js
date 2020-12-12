@@ -33,7 +33,6 @@ class Home extends React.Component{
             <div className={styles.grid}>
               <a href="/donate" className={styles.card}>
                 <h3>Donate Today</h3>
-                <p></p>
               </a>
             </div>
 
@@ -42,7 +41,7 @@ class Home extends React.Component{
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
-                    <p>Tuesday, Wednesday, Friday, Saturday from 10:00AM - Noon</p>
+                    <p className={styles.description}>Tuesday, Wednesday, Friday, Saturday from 10:00AM - Noon</p>
                     <ul className={styles.list}>
                         <li>It is necessary to call a day ahead for an appointment.</li>
                         <li>Identification and proof of address are required when picking up groceries.</li>
