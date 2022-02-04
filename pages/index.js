@@ -36,12 +36,12 @@ class Home extends React.Component{
               </a>
             </div>
 
-            <h2 className={styles.announcements}>Upcoming Events</h2>
-                <p className={styles.description}>Reynoldsburg Helping Hands is holding a Food Drive on November 21st from 10:00AM - 2:00PM.</p>
+            <h2 className={styles.announcements}>Announcements</h2>
+                <p className={styles.description}>The food pantry is closed today, Feb. 4th, and tomorrow, Feb. 5th, due to inclement weather. Please call and leave a message to make an appointment for Tuesday morning.</p>
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
-                    <p className={styles.description}>Tuesday, Wednesday, Friday, Saturday from 10:00AM - Noon</p>
+                    <p className={styles.description}>Tuesday, Wednesday*, Friday, Saturday from 10:00AM - Noon</p>
                     <ul className={styles.list}>
                         <li>It is necessary to call a day ahead for an appointment.</li>
                         <li>Identification and proof of address are required when picking up groceries.</li>
