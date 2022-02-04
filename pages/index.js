@@ -36,12 +36,25 @@ class Home extends React.Component{
               </a>
             </div>
 
+<<<<<<< HEAD
             <h2 className={styles.announcements}>Announcements</h2>
                 <p className={styles.description}>The food pantry is closed today, Feb. 4th, and tomorrow, Feb. 5th, due to inclement weather. Please call and leave a message to make an appointment for Tuesday morning.</p>
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
                     <p className={styles.description}>Tuesday, Wednesday*, Friday, Saturday from 10:00AM - Noon</p>
+=======
+            <p className={styles.description}>Don’t forget to go to the Moo Moo Express Car Wash on E Mail Street in front of Value City Furniture to snag your $1 fall scented air freshener! Not only do 100% of the proceeds benefit our pantry but you’ll also have a chance to win free car washes for a year! Each Moo Moo location is supporting a different local charity! Check out the great company we are in:</p>
+
+            <img src="https://scontent.fcmh1-1.fna.fbcdn.net/v/t1.6435-9/242079333_247503164046501_1914248487091696600_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jjz-bK3rJvkAX_c1hOh&_nc_ht=scontent.fcmh1-1.fna&oh=1339b231db12afd83b406cbe70803214&oe=6168ED97"className={styles.image}/>
+
+            <h2 className={styles.announcements}>Upcoming Events</h2>
+                <p className={styles.description}>Reynoldsburg Helping Hands is holding a Food Drive on November 6th, 2021 from 10:00AM - 2:00PM.</p>
+
+            <h2 className={styles.announcements}>For Assistance</h2>
+                <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
+                    <p className={styles.description}>Tuesday, Friday, Saturday from 10:00AM - Noon, Wednesday 4:00pm-6:00pm</p>
+>>>>>>> 4b55fd6591f85ca35234878886a31dca73696a10
                     <ul className={styles.list}>
                         <li>It is necessary to call a day ahead for an appointment.</li>
                         <li>Identification and proof of address are required when picking up groceries.</li>
