@@ -37,11 +37,11 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Announcements</h2>
-                <p className={styles.description}>The food pantry is closed today, Feb. 4th, and tomorrow, Feb. 5th, due to inclement weather. Please call and leave a message to make an appointment for Tuesday morning.</p>
+                <p className={styles.description}>The food pantry will be closed Saturday, April 16th. Please call and leave a message to make an appointment for Tuesday morning.</p>
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
-                    <p className={styles.description}>Tuesday, Wednesday*, Friday, Saturday from 10:00AM - Noon</p>
+                    <p className={styles.description}>Tuesday, Friday, Saturday from 10:00AM - Noon, Wednesday 4:00PM - 6:00PM</p>
                     <ul className={styles.list}>
                         <li>It is necessary to call a day ahead for an appointment.</li>
                         <li>Identification and proof of address are required when picking up groceries.</li>
