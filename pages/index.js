@@ -37,7 +37,8 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Announcements</h2>
-                <p className={styles.description}>The food pantry will be closed Saturday, April 16th. Please call and leave a message to make an appointment for Tuesday morning.</p>
+                <p className={styles.description}>Food Drive this Saturday, June 25th from 4:00-6:00pm! Details below:</p>
+                <img src="https://imgur.com/AXChqnw.png" />
 
             <h2 className={styles.announcements}>For Assistance</h2>
                 <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
