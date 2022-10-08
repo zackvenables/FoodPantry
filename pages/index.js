@@ -38,7 +38,7 @@ class Home extends React.Component{
 
             <h2 className={styles.announcements}>Announcements</h2>
                 <p className={styles.description}>Food Drive on Saturday, October 15th from 10:00am-2:00pm! Details below:</p>
-                <img src="https://i.imgur.com/lwotn4o.jpeg"/>
+                <img style={{width: '85%'}} src="https://i.imgur.com/lwotn4o.jpeg"/>
     
 
             <h2 className={styles.announcements}>For Assistance</h2>
