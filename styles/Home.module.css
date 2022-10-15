@@ -41,6 +41,10 @@
   margin-bottom: -1.4rem;
 }
 
+.navimage {
+  border: 3px solid #eaeaea;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -50,16 +54,23 @@
   align-items: center;
 }
 
+.announceimage {
+  width: 85%;
+  border: 3px solid #eaeaea;
+}
+
 .image {
     max-width: 800px;
     width: 100%;
-    margin-top: 3rem;    
+    margin-top: 3rem;
+    border: 3px solid #eaeaea;
 }
 
 .map {
     height: 100%;
     width: 100%;
     max-width: 600px;
+    border: 3px solid #eaeaea;
 }
 
 .announcements {
@@ -84,7 +95,6 @@
   align-items: center;
 }
 
-
 .title {
   margin: 0;
   text-align: left;
@@ -104,15 +114,6 @@
   margin-bottom: 2.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
   align-items: center;
@@ -127,14 +128,12 @@
   max-width: 11rem;
   text-align: center;
   padding: 0rem 1rem 0rem 1rem;
-  
   color: #421075;
   text-decoration: none;
   border: 2px solid #421075;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
-
 
 .card:hover,
 .card:focus,
@@ -206,10 +205,12 @@
 .golfFamily{
     width: 40%;
     max-width: 800px;
+    border: 3px solid #eaeaea;
 }
 
 .aboutImg{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    max-width: 100%
+    width: 80%;
+    border: 3px solid #eaeaea;
 }

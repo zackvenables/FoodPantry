@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
               <link rel="icon" href="https://i.pinimg.com/originals/a7/21/15/a72115694d8a0f3c972a9b04a64c0159.png" />
           </Head>
           <Navbar />
-          <img src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
+          <img className={styles.navimage} src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg" className={styles.image}/>
           <Component {...pageProps} /> 
           <Footer />
         </main>
