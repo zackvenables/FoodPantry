@@ -7,6 +7,38 @@
   align-items: center;
 }
 
+.navcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  background: white;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+  padding-bottom: 1.5rem;
+}
+
+.navitem {
+  display: inline-block;
+  margin-top: -2rem;
+}
+
+.active {
+  color: #FFC82D;
+  border-color: #FFC82D;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1.4rem;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -16,16 +48,10 @@
   align-items: center;
 }
 
-.horLine {
-     border: 2px solid light-grey;
-     width: 100%;
-     margin-bottom: 1.8rem;
-}
-
 .image {
     max-width: 800px;
     width: 100%;
-    
+    margin-top: 3rem;    
 }
 
 .map {
@@ -58,7 +84,6 @@
 
 .title,
 .description {
-  
   text-align: center;
 }
 
@@ -100,6 +125,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -136,16 +162,10 @@
     margin-bottom: -0.4rem;
 }
 
-.navitem {
-    display: inline-block;
-}
-
 .topnav {
   display: inline-block;
   overflow: hidden;
   background-color: #421075;
-  margin-top: -2rem;
-  margin-bottom: 2.5rem;
   border-radius: 10px;
 }
 
@@ -166,25 +186,6 @@
 .topnav a.active {
   background-color: #FFC82D;
   color: black;
-}
-
-.navbar{
-    background: transparent;
-    border: none;
-}
-
-.navbar li{
-    display: inline-block;
-    float: none;
-}
-
-.navbar li a{
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.logo {
-   
 }
 
 .golfSponsors{
