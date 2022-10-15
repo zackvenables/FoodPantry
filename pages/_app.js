@@ -1,12 +1,25 @@
 import Navbar from '../Components/Navbar';
 import Head from 'next/head';
 import Footer from '../Components/Footer';
+import Script from 'next/script'
+import Router from 'next/router';
 import styles from '../styles/Home.module.css';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
     <>
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-69G3N9QJT9`} />
+      <Script strategy="lazyOnload">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-69G3N9QJT9', {
+              page_path: window.location.pathname,
+              });
+          `}
+      </Script>
       <div className={styles.container}>
         <main className={styles.main}>
           <Head>

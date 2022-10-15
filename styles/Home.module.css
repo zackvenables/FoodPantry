@@ -81,6 +81,7 @@
 
 .footer {
   width: 100%;
+  max-width: 50rem;
   margin-top: 3rem;
   border-top: 3px solid #eaeaea;
   display: flex;
