@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <>
             <footer className={styles.footer}>
-                <p>7453 E. Main Street <br/> Reyonoldsburg, Ohio <br/> (614) 868-9394 <br/>  </p>
+                <p>7453 E. Main Street <t/> Reyonoldsburg, Ohio <br/>
+                    <p className={styles.footerphone}>(614) 868-9394 <p/></p></p>
             </footer>
         </>
     );
