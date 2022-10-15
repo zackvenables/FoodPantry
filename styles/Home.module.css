@@ -74,9 +74,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  bottom: 0rem;
-  position: sticky;
   background: white;
 }
 
