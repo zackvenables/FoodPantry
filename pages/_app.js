@@ -1,12 +1,13 @@
 import Navbar from '../Components/Navbar';
 import Head from 'next/head';
 import Footer from '../Components/Footer';
-import Script from 'next/script'
-import Router from 'next/router';
+import Link from 'next/link';
+
 import styles from '../styles/Home.module.css';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps, router }) {
+function MyApp({ Component, pageProps, ...appProps }) {
+
   return (
     <>
       <div className={styles.container}>
@@ -17,7 +18,19 @@ function MyApp({ Component, pageProps, router }) {
           </Head>
           <Navbar />
           <img className={styles.image} src="https://fixcom.azureedge.net/assets/content/15713/pantry-power-header.jpg"/>
-          <Component {...pageProps} /> 
+          
+          {appProps.router.pathname !== '/donate' && 
+            <div className={styles.grid}>
+              <Link href="/donate">
+                <a className={styles.card}>
+                  <h3>Donate Today</h3>
+                </a>
+              </Link>
+            </div>
+          }
+
+          <Component {...pageProps} />
+          
           <Footer />
         </main>
       </div>

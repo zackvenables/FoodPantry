@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
+
+
 class Home extends React.Component{
   constructor(props){
       super (props);  
@@ -9,11 +11,6 @@ class Home extends React.Component{
   render(){
     return (
       <>  
-        <div className={styles.grid}>
-          <a href="/donate" className={styles.card}>
-            <h3>Donate Today</h3>
-          </a>
-        </div>
         <h2 className={styles.announcements}>Announcements</h2>
         <p className={styles.description}>Food Drive on Saturday, October 15th from 10:00am-2:00pm! Details below:</p>
         <img className={styles.announceimage} src="https://i.imgur.com/lwotn4o.jpeg"/>
