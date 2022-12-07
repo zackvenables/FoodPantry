@@ -37,8 +37,7 @@ class Home extends React.Component{
             </div>
 
             <h2 className={styles.announcements}>Announcements</h2>
-                <p className={styles.description}>Food Drive on Saturday, October 15th from 10:00am-2:00pm! Details below:</p>
-                <img style={{width: '85%'}} src="https://i.imgur.com/lwotn4o.jpeg"/>
+                <p className={styles.description}> The Food Pantry will be closed from Saturday, Dec. 24th - Monday, Jan. 1st</p>
     
 
             <h2 className={styles.announcements}>For Assistance</h2>
