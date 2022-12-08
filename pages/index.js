@@ -13,7 +13,7 @@ class Home extends React.Component{
         <p className={styles.description}> The Food Pantry will be closed from Saturday, Dec. 24th - Monday, Jan. 2nd</p>
         <h2 className={styles.announcements}>For Assistance</h2>
         <h4 className={styles.assistanceTitles}>Hours of Operation: </h4>
-        <p className={styles.description}>Tuesday, Friday, Saturday from 10:00AM - Noon, Wednesday 4:00PM - 6:00PM</p>
+        <p className={styles.description}>Tuesday, Friday, Saturday from 10:00AM - Noon, Wednesday 2:00-4:00PM</p>
         <ul className={styles.list}>
             <li>It is necessary to call a day ahead for an appointment.</li>
             <li>Identification and proof of address are required when picking up groceries.</li>
