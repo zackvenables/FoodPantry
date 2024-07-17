@@ -10,11 +10,15 @@ class Home extends React.Component{
     return (
       <><>
         <h2 className={styles.announcements}>Announcements</h2>
-        <p className={styles.description}>Save the date! The next food drive will be Saturday, Nov. 11th, 10:00am - 2:00pm. Please give what you can to support your local community - we are in need of non-perishable food items, toiletries, and household items such as laundry detergent.</p>
+        <p className={styles.description}>The Ashton Dulin event this past weekend, July 13th, was great! The kids who stopped by got a backpack full of supplies, sunglasses, and water bottles. They also got autographs/pictures with Ashton and a free lunch. 
+The kids loved the dunk tank, bounce house, and games.
+Thank you to Ashton's friends and family for this incredible community event that also supported our food pantry! </p>
         <div>
-
+          <img className='inner-img' src="https://i.imgur.com/XSXOUS4.png" />
+          <img className='inner-img' src="https://i.imgur.com/e66g4KT.jpeg" />
+          <img className='inner-img' src="https://i.imgur.com/eX8IwTW.jpeg"/>
         </div>
-        <h4 className={styles.assistanceTitles}>Upcoming Closures: </h4><p className={styles.description}> Reynoldsburg Helping Hands will be closed Saturday, Nov. 11th for the food drive , Friday, Nov. 23rd and the week of Dec. 25th - Jan. 1st in observance of the upcoming holidays. </p>
+        <h4 className={styles.assistanceTitles}> </h4><p className={styles.description}> </p>
         <div>
           
         </div>
