@@ -10,13 +10,22 @@ class Home extends React.Component{
     return (
       <><>
         <h2 className={styles.announcements}>Announcements</h2>
-        <p className={styles.description}>The Ashton Dulin event this past weekend, July 13th, was great! The kids who stopped by got a backpack full of supplies, sunglasses, and water bottles. They also got autographs/pictures with Ashton and a free lunch. 
-The kids loved the dunk tank, bounce house, and games.
-Thank you to Ashton's friends and family for this incredible community event that also supported our food pantry! </p>
+        <p className={styles.description}>Attention Reynoldsburg Helping Hands Supporters: We Need YOUR Help!
+
+Mark your calendars for Saturday, September 14 and Sunday, September 15 and head over to the Reynoldsburg Big Sandy Superstore for some fantastic deals and support Reynoldsburg Helping Hands at the same time! 🎉
+
+Here’s how you can make a difference:
+
+Shop and Save: Visit Big Sandy Superstore to make a purchase on September 14 or 15. 
+
+Support: Simply mention our organization or show this post at checkout.
+
+Big Sandy Superstore will donate a percentage of your sale to us and they will match the amount! It’s a win-win for you, our amazing supporters, and our nonprofit.
+
+Your support means the world to us. We’re grateful for every purchase made in support of our cause. Don’t miss this chance to shop, save, and support! </p>
         <div>
-          <img className='inner-img' src="https://i.imgur.com/XSXOUS4.png" />
-          <img className='inner-img' src="https://i.imgur.com/e66g4KT.jpeg" />
-          <img className='inner-img' src="https://i.imgur.com/eX8IwTW.jpeg"/>
+          <img className='inner-img' src="https://i.imgur.com/6vIJgYk.jpeg"  style={{width: '50%', marginLeft: '25%'}}/>
+       
         </div>
         <h4 className={styles.assistanceTitles}> </h4><p className={styles.description}> </p>
         <div>
