@@ -9,6 +9,16 @@ class Donation extends React.Component{
 	render(){	
 		return(
 			<>	
+				<h2 className={styles.giveFunds}>Support Reynoldsburg Helping Hands Food Pantry Year-Round!</h2>
+				<p className={styles.description}>
+				At Reynoldsburg Helping Hands Food Pantry, we are committed to ensuring that no family in our community goes hungry. Hunger doesn't take a break and neither do we. We 
+				serve individuals and families who rely on our pantry for essential food items. 
+
+				While many people donate during the holiday season, the need for food and supplies is constant. We operate year-round,
+				and our shelves need continuous restocking to keep pace with the growing demand. Every donation, large or small, makes a 
+				significant difference in the lives of families struggling with food insecurity. Your support helps ensure that no on in our 
+				community has to go without food. </p>
+
 				<h2 className={styles.giveFunds}>Give Funds</h2>
 				<p className={styles.description}>
 					One of the best ways you can assist Reynoldsburg Helping 
